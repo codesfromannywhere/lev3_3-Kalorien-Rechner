@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslateblue;
+    font-weight: 100;
+}
+
+section {
+    background-color: whitesmoke;
+    border: 1px solid pink;
+    border-radius: 15px;
+    box-shadow: 0 0 50px 1px whitesmoke;
+    max-width: 30vw;
+    margin: 5% auto;
+    padding: 4%;
+}
+
+section h1 {
+    padding-bottom: 5vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+
+form label {
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+form input {
+    padding: 5%;
+    margin-bottom: 8%;
+}
+
+form div:nth-of-type(1) label {
+margin-right: 10%;
+}
+
+form div:nth-of-type(2) label {
+    font-size: 1rem;
+}
+
+form div:nth-of-type(2) select {
+    padding: 3%;
+    max-width: 30vw;
+    margin-top: 1vh;
+}
+
+form input[type="submit"] {
+    margin: 5vh 0 6vh 0;
+    background-color: darkslateblue;
+    color: whitesmoke;
+    border-radius: 15px;
+    border: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 0.8rem;
+}
+
+hr {
+    border-top: 0.2px solid darkslateblue;
+}
+
+article table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    margin: 5vh 0 8vh 0;
+    font-weight: bold;
+}
+
+article table tr:nth-of-type(1) {
+    background-color: pink;
+}
+
+article table th,
+td {
+    padding: 2% 2%;
+    border: .1px dashed pink;
+}
